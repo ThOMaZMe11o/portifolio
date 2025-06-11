@@ -4,7 +4,8 @@ export default function Hobbies() {
     return (
         <>
             <Header />
-            <h1>Hobbies page</h1>
+            <div className="card">
+            </div>
         </>
     )
 }
