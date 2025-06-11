@@ -11,6 +11,6 @@ import Contact from './pages/Contact.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <Welcome />
   </StrictMode>,
 )
