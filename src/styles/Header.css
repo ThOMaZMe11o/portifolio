@@ -30,3 +30,19 @@ header a {
     font-size: 14px;
     font-weight: 500;
 }
+
+.githubIcon:hover {
+    color: #727272;
+}
+
+.linkedinIcon:hover {
+    color: #3014d4;
+}
+
+.instaIcon:hover {
+    color: #d00f8c;
+}
+
+.mailIcon:hover {
+    color: #d63232;
+}
