@@ -6,3 +6,27 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+.left, .right {
+    width: 20%;
+    margin: 24px 16px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header a {
+    color: #d0d0d0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}

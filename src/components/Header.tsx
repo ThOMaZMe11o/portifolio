@@ -12,10 +12,10 @@ export default function Header() {
                 <a href="">Contact</a>
             </div>
             <div className="right">
-                <a href=""><Github /></a>
-                <a href=""><Linkedin /></a>
-                <a href=""><Instagram /></a>
-                <a href=""><Mail /></a>
+                <a href=""><Github style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
+                <a href=""><Linkedin style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
+                <a href=""><Instagram style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
+                <a href=""><Mail style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
             </div>
         </header>
     </>
