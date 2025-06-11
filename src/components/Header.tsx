@@ -12,10 +12,10 @@ export default function Header() {
                 <a href="">Contact</a>
             </div>
             <div className="right">
-                <a href="" className="githubIcon"><Github style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
-                <a href="" className="linkedinIcon"><Linkedin style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
-                <a href="" className="instaIcon"><Instagram style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
-                <a href="" className="mailIcon"><Mail style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
+                <a href="https://www.github.com/ThOMaZMe11o" className="githubIcon" target="_blank"><Github style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
+                <a href="https://www.linkedin.com/in/thomazfeitosa" className="linkedinIcon" target="_blank"><Linkedin style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
+                <a href="https://www.instagram.com/thomaz_mellux" className="instaIcon" target="_blank"><Instagram style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
+                <a href="mailto:thomazmello1912@gmail.com" className="mailIcon" target="_blank"><Mail style={{width: '22px', height: '22px', marginLeft: '10px'}} /></a>
             </div>
         </header>
     </>
