@@ -1,15 +1,12 @@
 import Header from './components/Header'
 import './App.css'
 
-function App() {
+export default function App() {
 
   return (
     <>
       <Header />   
-      <h1>My Portfolio</h1>
-      <p>Welcome to my portfolio website!</p>
+      <h1>App page</h1>
     </>
   )
 }
-
-export default App
