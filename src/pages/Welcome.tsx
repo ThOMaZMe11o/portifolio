@@ -9,7 +9,7 @@ export default function Welcome() {
             <p className="w-p">Sou Desenvolvedor Front-end, muito motivado e curioso.</p>
             <div className="w-buttons">
                 <a href="" className="w-a"><button className="buttonPrf">Ir para o portifólio</button></a>
-                <a href="" className="w-a"><button className="buttonLkn">Ir para o linkedin</button></a>
+                <a href="https://www.linkedin.com/in/thomazfeitosa" className="w-a" target="_blank"><button className="buttonLkn">Ir para o linkedin</button></a>
             </div>
         </>
     )
