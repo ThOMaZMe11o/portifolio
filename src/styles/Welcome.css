@@ -42,6 +42,6 @@
 }
 
 .buttonLkn:hover {
-    border: 2px solid #3838c3;
-    color: #3838c3;
+    border: 2px solid blue;
+    color: blue;
 }

@@ -12,6 +12,6 @@ import { Route } from 'react-router'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Hobbies />
+    <Welcome />
   </StrictMode>,
 )
