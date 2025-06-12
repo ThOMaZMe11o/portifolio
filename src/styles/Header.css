@@ -31,6 +31,10 @@ header a {
     font-weight: 500;
 }
 
+a:hover {
+    color: rgb(0, 183, 255);
+}
+
 .githubIcon:hover {
     color: #727272;
 }

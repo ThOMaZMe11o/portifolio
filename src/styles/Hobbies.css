@@ -1,10 +1,13 @@
 .h-container {
     width: 80%;
     height: auto;
-    padding: 20px;
     margin-top: 100px;
-    background-color: rgba(255, 255, 255, 0.186);
-    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.075); /* fundo semi-transparente */
+    backdrop-filter: blur(10px); /* aplica o blur no que estiver atrás */
+    -webkit-backdrop-filter: blur(10px); /* para Safari */
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.068);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,3 +24,56 @@
     text-align: center;
     margin-top: 0;
 }
+
+.hobbies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* duas colunas iguais */
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+.hobbies > div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+        "icon title"
+        "text text";
+    gap: 0.5rem 1rem;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.hobbies .svg {
+    grid-area: icon;
+    width: 32px;
+    height: 32px;
+    background-color:  rgba(0, 183, 255, 0.151);
+    padding: 8px;
+    border-radius: 10px;
+    color: rgb(0, 183, 255);
+}
+
+.hobbies h2 {
+    grid-area: title;
+    margin: 0;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.hobbies p {
+    grid-area: text;
+    margin: 0;
+    color: white;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .hobbies {
+        grid-template-columns: 1fr;
+    }
+}
+
