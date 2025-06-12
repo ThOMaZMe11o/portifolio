@@ -1,7 +1,7 @@
 .h-container {
     width: 80%;
     height: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     background-color: rgba(255, 255, 255, 0.075); /* fundo semi-transparente */
     backdrop-filter: blur(10px); /* aplica o blur no que estiver atrás */
     -webkit-backdrop-filter: blur(10px); /* para Safari */
@@ -57,6 +57,24 @@
 
 .icon-container h2 {
     margin-left: 15px;
+}
+
+.button-container {
+    margin-top: 2%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.button-container a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 12px;
+    color: rgba(255, 255, 255, 0.932);
+    background-color: rgba(255, 255, 255, 0.075);
+    border: 2px solid rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
