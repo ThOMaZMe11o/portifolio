@@ -11,24 +11,36 @@ export default function Hobbies() {
                     <h1>Interesses e hobbies</h1>
                     <div className="hobbies">
                         <div className="pesca">
-                            <Fish className="svg" />
-                            <h2>Pescaria</h2>
-                            <p>Adoro pescar, especialmente em lagos tranquilos.</p>
+                            <div className="icon-container">
+                                <Fish className="svg" />
+                                <h2>Pescaria</h2>
+                            </div>
+                            <p>Eu gosto de pescaria porque me ajuda a relaxar e desconectar da correria do dia a dia. Estar perto da água, ouvindo o som da natureza, me traz uma paz que poucas coisas conseguem. Além disso, é sempre um bom momento para refletir ou simplesmente aproveitar o silêncio.</p>
+                            <hr />
                         </div>
                         <div className="viagens">
-                            <Plane className="svg" />
-                            <h2>Viagens</h2>
-                            <p>Viajar é uma das minhas maiores paixões, sempre em busca de novas aventuras.</p>
+                            <div className="icon-container">
+                                <Plane className="svg" />
+                                <h2>Viagens</h2>
+                            </div>
+                            <p>Eu gosto de viajar porque cada lugar novo me traz uma sensação de descoberta. Conhecer outras culturas, provar comidas diferentes e ver paisagens que nunca imaginei é algo que realmente me inspira. Sempre volto com histórias novas e uma bagagem cheia de experiências.</p>
+                            <hr />
                         </div>
                         <div className="games">
-                            <Gamepad2 className="svg" />
-                            <h2>Games</h2>
-                            <p>Sou um grande fã de jogos, tanto digitais quanto de tabuleiro.</p>
+                            <div className="icon-container">
+                                <Gamepad2 className="svg" />
+                                <h2>Games</h2>
+                            </div>
+                            <p>Eu gosto de games porque eles me divertem e me desafiam ao mesmo tempo. Seja jogando sozinho ou com amigos, sempre encontro alguma forma de me entreter. Gosto tanto dos jogos digitais quanto dos de tabuleiro, principalmente aqueles que exigem estratégia e criatividade.</p>
+                            <hr />
                         </div>
                         <div className="carro">
-                            <Car className="svg" />
-                            <h2>Carros clássicos</h2>
-                            <p>Sou apaixonado por carros, especialmente os clássicos.</p>
+                            <div className="icon-container">
+                                <Car className="svg" />
+                                <h2>Carros clássicos</h2>
+                            </div>
+                            <p>Eu gosto de carros clássicos porque eles têm personalidade. Cada modelo carrega uma história, um estilo próprio que não se vê mais nos carros modernos. Adoro aprender sobre eles, ver de perto em eventos e imaginar como era dirigir naquela época.</p>
+                            <hr />
                         </div>
                     </div>    
                 </div>
