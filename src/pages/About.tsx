@@ -171,35 +171,20 @@ export default function About() {
                         <div className="certifications">
                             <h1>Certificados</h1>
                             <div className="carousel">
-                                <div className="carousel-inner">
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Ambiente de Desenvolvimento Java.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Aprendendo a Sintaxe Java.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Desafios de Projetos Crie Um Portfólio Vencedor.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Desenvolvimento Android 2018 - Aprenda a criar 15 apps.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Introdução à Plataforma Java.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Introdução ao Java Cloud Native com o Bradesco.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Java Completo Do Zero ao Profissional.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/SQL para Análise de Dados Do Básico ao Avançado.jpg" alt="" />
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="/certifications/Versionamento de Código com Git e Github.jpg" alt="" />
-                                    </div>
+                                <button className="prev" onClick={prevSlide}>
+                                <ChevronLeft size={28} />
+                                </button>
+
+                                <div className="carousel-inner" style={{ transform: `translateX(-${index * 100}%)` }}
+                                    >
+                                    {images.map((src, i) => (
+                                        <img key={i} src={src} alt={`certificado-${i}`} className="carousel-item" />
+                                    ))}
                                 </div>
+
+                                <button className="next" onClick={nextSlide}>
+                                    <ChevronRight size={28} />
+                                </button>
                             </div>
                         </div>
                         <div className="github-area">
