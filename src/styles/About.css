@@ -25,15 +25,11 @@
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 20px;
 }
 
 .about-me {
     padding: 10px;
-}
-
-.about-me p {
-    text-align: justify;
 }
 
 .languages-section {
@@ -42,6 +38,10 @@
     overflow: auto;
     grid-row: 1 / span 2;
     grid-column: 2 / span 1;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .languages-section::-webkit-scrollbar {
@@ -150,11 +150,14 @@ button.next {
 }
 
 .github-area {
-    margin-top: 20px;
     grid-column: 1 / span 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .github-icon {
@@ -193,9 +196,15 @@ button.next {
 }
 
 .repos {
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .commit-chart {
-    background-color: salmon;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
 }
