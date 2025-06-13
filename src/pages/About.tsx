@@ -158,7 +158,7 @@ export default function About() {
                                         <img src="/certifications/Desafios de Projetos Crie Um Portfólio Vencedor.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="" alt="" />
+                                        <img src="/certifications/Desenvolvimento Android 2018 - Aprenda a criar 15 apps.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
                                         <img src="" alt="" />
