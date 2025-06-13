@@ -84,24 +84,63 @@
 }
 
 .certifications {
-    background-color: blueviolet;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel {
+    width: 70%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.carousel-window {
+    width: 100%;
+    overflow: hidden;
 }
 
 .carousel-inner {
-
+    display: flex;
+    transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
-
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-item img {
-    width: 20px;
-    height: auto;
+  max-width: 90%;
+  max-height: 350px;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
 }
 
 .github-area {

@@ -172,18 +172,24 @@ export default function About() {
                             <h1>Certificados</h1>
                             <div className="carousel">
                                 <button className="prev" onClick={prevSlide}>
-                                <ChevronLeft size={28} />
+                                <ChevronLeft size={24} />
                                 </button>
 
-                                <div className="carousel-inner" style={{ transform: `translateX(-${index * 100}%)` }}
-                                    >
+                                <div className="carousel-window">
+                                <div
+                                    className="carousel-inner"
+                                    style={{ transform: `translateX(-${index * 100}%)` }}
+                                >
                                     {images.map((src, i) => (
-                                        <img key={i} src={src} alt={`certificado-${i}`} className="carousel-item" />
+                                    <div className="carousel-item" key={i}>
+                                        <img src={src} alt={`certificado-${i}`} />
+                                    </div>
                                     ))}
+                                </div>
                                 </div>
 
                                 <button className="next" onClick={nextSlide}>
-                                    <ChevronRight size={28} />
+                                <ChevronRight size={24} />
                                 </button>
                             </div>
                         </div>
