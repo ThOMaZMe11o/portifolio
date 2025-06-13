@@ -39,11 +39,7 @@ export default function About() {
                             
                             Sou um estudante de programação de 18 anos, determinado a construir uma carreira sólida e significativa na área de tecnologia. Desde que tive meu primeiro contato com o mundo da programação, desenvolvi uma paixão genuína por resolver problemas e criar soluções que possam facilitar a vida das pessoas. Tenho um grande interesse por desenvolvimento Front-End, mas também venho explorando as bases do Back-End para me tornar um desenvolvedor Full-Stack completo. <br /><br />
 
-                            Minha trajetória é marcada por autoaprendizado constante, seja por meio de cursos online, tutoriais, projetos pessoais ou participação em comunidades de tecnologia. Estou sempre buscando compreender não apenas o "como", mas principalmente o "porquê" das tecnologias, tentando absorver ao máximo os conceitos de lógica de programação, estruturas de dados, boas práticas de código e princípios de design responsivo. <br /><br />
-
-                            Tenho familiaridade com HTML, CSS, JavaScript, além de estar estudando frameworks como React e Node.js. Também venho me aprofundando em controle de versão com Git e GitHub, metodologias ágeis como Scrum, além de noções de UI/UX e acessibilidade. Estou começando a explorar também bancos de dados como MongoDB e PostgreSQL, com foco em construir aplicações completas e bem estruturadas. <br /><br />
-
-                            Com uma mentalidade proativa e uma forte vontade de aprender, estou sempre me desafiando com novos projetos e ideias. Acredito que a tecnologia tem o poder de transformar realidades e, por isso, me esforço para construir soluções que sejam tanto funcionais quanto impactantes. <br /><br /></p>
+                            Minha trajetória é marcada por autoaprendizado constante, seja por meio de cursos online, tutoriais, projetos pessoais ou participação em comunidades de tecnologia. Estou sempre buscando compreender não apenas o "como", mas principalmente o "porquê" das tecnologias, tentando absorver ao máximo os conceitos de lógica de programação, estruturas de dados, boas práticas de código e princípios de design responsivo. <br /><br /></p>
                         </div>
                         <div className="languages-section">
                             <h1>Linguagens e Tecnologias</h1>
