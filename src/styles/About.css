@@ -52,13 +52,9 @@
     border-radius: 10px; /* bordas arredondadas */
 }
 .languages-section::-webkit-scrollbar-thumb {
-    background: rgb(0, 183, 255); /* cor do "polegar" da barra de rolagem */
+    background: rgba(0, 183, 255, 0.219); /* cor do "polegar" da barra de rolagem */
     border-radius: 10px; /* bordas arredondadas */
     transition: background-color 0.3s ease; /* transição suave para a cor de fundo */
-    box-shadow:
-    0 0 2px #00b7ff,
-    0 0 5px #00b7ff,
-    0 0 10px #00b7ff; /* sombra do "polegar" */
 }
 
 .languages-section h1 {
@@ -154,6 +150,7 @@ button.next {
 }
 
 .github-area {
+    margin-top: 20px;
     grid-column: 1 / span 2;
     display: flex;
     justify-content: space-between;
