@@ -19,6 +19,10 @@ export default function About() {
 
     const [index, setIndex] = useState(0);
 
+    const nextSlide = () => {
+        setIndex((prev) => (prev + 1) % images.length);
+    };
+
     return (
         <>
             <Header />
