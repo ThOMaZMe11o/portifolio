@@ -35,9 +35,8 @@ export default function About() {
                     <div className="about-section">
                         <div className="about-me">
                             <h1>Sobre mim</h1>
-                            <p>Estudante de Programação | Aspirante a Desenvolvedor Full-Stack | Apaixonado por Tecnologia. <br /><br /><hr /><br />
-                            
-                            Sou um estudante de programação de 18 anos, determinado a construir uma carreira sólida e significativa na área de tecnologia. Desde que tive meu primeiro contato com o mundo da programação, desenvolvi uma paixão genuína por resolver problemas e criar soluções que possam facilitar a vida das pessoas. Tenho um grande interesse por desenvolvimento Front-End, mas também venho explorando as bases do Back-End para me tornar um desenvolvedor Full-Stack completo. <br /><br />
+                            <h3>Estudante de Programação | Desenvolvedor Full Stack <br /></h3><hr />
+                            <p>Sou um estudante de programação de 18 anos, determinado a construir uma carreira sólida e significativa na área de tecnologia. Desde que tive meu primeiro contato com o mundo da programação, desenvolvi uma paixão genuína por resolver problemas e criar soluções que possam facilitar a vida das pessoas. Tenho um grande interesse por desenvolvimento Front-End, mas também venho explorando as bases do Back-End para me tornar um desenvolvedor Full-Stack completo. <br /><br />
 
                             Minha trajetória é marcada por autoaprendizado constante, seja por meio de cursos online, tutoriais, projetos pessoais ou participação em comunidades de tecnologia. Estou sempre buscando compreender não apenas o "como", mas principalmente o "porquê" das tecnologias, tentando absorver ao máximo os conceitos de lógica de programação, estruturas de dados, boas práticas de código e princípios de design responsivo. <br /><br /></p>
                         </div>
