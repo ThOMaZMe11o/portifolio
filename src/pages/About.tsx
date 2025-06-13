@@ -195,7 +195,7 @@ export default function About() {
                                 </svg>
                                 <h2>GitHub</h2>
                             </div>
-                            <Link to="https://github.com/ThOMaZMe11o">Ir para o Github</Link>
+                            <Link to="https://github.com/ThOMaZMe11o" target="_blank">Ir para o Github</Link>
                         </div>
                         <div className="repos">
                             Repositories
