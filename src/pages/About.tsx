@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import Header from "../components/Header"
 import '../styles/About.css';
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function About() {
     return (

@@ -87,6 +87,23 @@
     background-color: blueviolet;
 }
 
+.carousel {
+
+}
+
+.carousel-inner {
+
+}
+
+.carousel-item {
+
+}
+
+.carousel-item img {
+    width: 20px;
+    height: auto;
+}
+
 .github-area {
     grid-column: 1 / span 2;
     display: flex;
