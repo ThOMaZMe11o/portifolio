@@ -1,7 +1,7 @@
 .h-container {
     width: 80%;
     height: auto;
-    margin-top: 80px;
+    margin: 20px;
     background-color: rgba(255, 255, 255, 0.075); /* fundo semi-transparente */
     backdrop-filter: blur(10px); /* aplica o blur no que estiver atrás */
     -webkit-backdrop-filter: blur(10px); /* para Safari */
@@ -76,6 +76,7 @@
     border: 2px solid rgba(255, 255, 255, 0.11);
     border-radius: 10px;
     transition: 0.3s ease;
+    text-decoration: none;
 }
 
 .button-container a:hover {

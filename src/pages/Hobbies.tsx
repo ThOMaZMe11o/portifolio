@@ -7,7 +7,14 @@ export default function Hobbies() {
     return (
         <>
             <Header />
-            <div className="h-container">
+            <div style={{
+    minHeight: 'calc(100vh - 80px)', // ajuste conforme a altura do seu Header
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: '20px'
+  }}>
+                <div className="h-container">
                 <div className="h-card">
                     <h1>Interesses e hobbies</h1>
                     <div className="hobbies">
@@ -57,6 +64,7 @@ export default function Hobbies() {
                         </div>
                     </div>    
                 </div>
+            </div>
             </div>
         </>
     )
