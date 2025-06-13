@@ -155,7 +155,7 @@ export default function About() {
                                         <img src="/certifications/Aprendendo a Sintaxe Java.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="" alt="" />
+                                        <img src="/certifications/Desafios de Projetos Crie Um Portfólio Vencedor.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
                                         <img src="" alt="" />
