@@ -1,4 +1,4 @@
-.h-container {
+.a-container {
     width: 80%;
     height: auto;
     margin: 20px;
@@ -14,80 +14,17 @@
     color: white;
 }
 
-.h-card {
+.a-card {
     width: 100%;
     height: auto;
 }
 
-.h-card h1 {
+.a-card h1 {
     font-weight: 500;
     text-align: center;
     margin-top: 0;
 }
 
-.hobbies {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* duas colunas iguais */
-    gap: 1.5rem;
-    margin-top: 2rem;
+.about {
+    
 }
-
-
-.hobbies > div {
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 1rem;
-    border-radius: 10px;
-}
-
-.hobbies .svg {
-    width: 32px;
-    height: 32px;
-    background-color:  rgba(0, 183, 255, 0.151);
-    padding: 8px;
-    border-radius: 10px;
-    color: rgb(0, 183, 255);
-}
-
-.icon-container {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.icon-container h2 {
-    margin-left: 15px;
-}
-
-.button-container {
-    margin-top: 2%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-.button-container a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 12px;
-    color: rgba(255, 255, 255, 0.932);
-    background-color: rgba(255, 255, 255, 0.075);
-    border: 2px solid rgba(255, 255, 255, 0.11);
-    border-radius: 10px;
-    transition: 0.3s ease;
-    text-decoration: none;
-}
-
-.button-container a:hover {
-    color: rgba(255, 255, 255, 0.932);
-    background-color: rgba(255, 255, 255, 0.199);
-    border: 2px solid rgba(255, 255, 255, 0.205);
-}
-
-@media (max-width: 768px) {
-    .hobbies {
-        grid-template-columns: 1fr;
-    }
-}
-
