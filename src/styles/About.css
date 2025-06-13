@@ -139,6 +139,12 @@ button.next {
     cursor: pointer;
 }
 
+button.prev:hover,
+button.next:hover {
+    background-color:  rgba(106, 213, 255, 0.151);
+    color: rgb(80, 206, 255); 
+}
+
 button.prev {
     left: -50px;
 }
