@@ -168,7 +168,7 @@ export default function About() {
                             <h1>Certificados</h1>
                             <div className="carousel">
                                 <button className="prev" onClick={prevSlide}>
-                                <ChevronLeft size={24} />
+                                <ChevronLeft size={56} />
                                 </button>
 
                                 <div className="carousel-window">
@@ -185,7 +185,7 @@ export default function About() {
                                 </div>
 
                                 <button className="next" onClick={nextSlide}>
-                                <ChevronRight size={24} />
+                                <ChevronRight size={56} />
                                 </button>
                             </div>
                         </div>

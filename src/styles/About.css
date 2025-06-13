@@ -133,6 +133,8 @@ button.next {
   padding: 10px;
   cursor: pointer;
   z-index: 1;
+  background-color: transparent;
+  border: none;
 }
 
 button.prev {
