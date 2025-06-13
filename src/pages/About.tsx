@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import Header from "../components/Header"
 import '../styles/About.css';
 import React, { useState } from "react";
-import { ArrowBigRight, ArrowBigLeft } from "lucide-react";
+import { ArrowRight, ArrowLeft } from "lucide-react";
 
 export default function About() {
     const images = [
@@ -168,7 +168,7 @@ export default function About() {
                             <h1>Certificados</h1>
                             <div className="carousel">
                                 <button className="prev" onClick={prevSlide}>
-                                <ArrowBigLeft size={40} />
+                                <ArrowLeft size={24} />
                                 </button>
 
                                 <div className="carousel-window">
@@ -185,7 +185,7 @@ export default function About() {
                                 </div>
 
                                 <button className="next" onClick={nextSlide}>
-                                <ArrowBigRight size={40} />
+                                <ArrowRight size={24} />
                                 </button>
                             </div>
                         </div>
