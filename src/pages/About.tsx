@@ -1,9 +1,22 @@
 import { Link } from "react-router";
 import Header from "../components/Header"
 import '../styles/About.css';
+import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function About() {
+    const images = [
+        "/certifications/Ambiente de Desenvolvimento Java.jpg",
+        "/certifications/Aprendendo a Sintaxe Java.jpg",
+        "/certifications/Desafios de Projetos Crie Um Portfólio Vencedor.jpg",
+        "/certifications/Desenvolvimento Android 2018 - Aprenda a criar 15 apps.jpg",
+        "/certifications/Introdução à Plataforma Java.jpg",
+        "/certifications/Introdução ao Java Cloud Native com o Bradesco.jpg",
+        "/certifications/Java Completo Do Zero ao Profissional.jpg",
+        "/certifications/SQL para Análise de Dados Do Básico ao Avançado.jpg",
+        "/certifications/Versionamento de Código com Git e Github.jpg",
+    ];
+
     return (
         <>
             <Header />
