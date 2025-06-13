@@ -17,6 +17,8 @@ export default function About() {
         "/certifications/Versionamento de Código com Git e Github.jpg",
     ];
 
+    const [index, setIndex] = useState(0);
+
     return (
         <>
             <Header />
