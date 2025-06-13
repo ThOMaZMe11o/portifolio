@@ -161,7 +161,7 @@ export default function About() {
                                         <img src="/certifications/Desenvolvimento Android 2018 - Aprenda a criar 15 apps.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="" alt="" />
+                                        <img src="/certifications/Introdução à Plataforma Java.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
                                         <img src="" alt="" />
