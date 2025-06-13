@@ -164,7 +164,7 @@ export default function About() {
                                         <img src="/certifications/Introdução à Plataforma Java.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="" alt="" />
+                                        <img src="/certifications/Introdução ao Java Cloud Native com o Bradesco.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
                                         <img src="" alt="" />
