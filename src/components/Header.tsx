@@ -1,12 +1,14 @@
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
 import '../styles/Header.css';
 import { Link } from "react-router";
+import { ArrowLeft } from "lucide-react";
 
 export default function Header() {
   return (
     <>
         <header>
             <div className="left">
+                <Link to="/" style={{ width: '50px', height: '21px' }} ><ArrowLeft /></Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/about">About me</Link>
                 <Link to="/hobbies">Hobbies</Link>
