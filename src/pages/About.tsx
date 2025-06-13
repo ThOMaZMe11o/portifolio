@@ -23,6 +23,10 @@ export default function About() {
         setIndex((prev) => (prev + 1) % images.length);
     };
 
+    const prevSlide = () => {
+        setIndex((prev) => (prev - 1 + images.length) % images.length);
+    };
+
     return (
         <>
             <Header />
