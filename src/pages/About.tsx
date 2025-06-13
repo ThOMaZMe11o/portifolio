@@ -163,6 +163,7 @@ export default function About() {
                                     <div className="carousel-item">
                                         <img src="" alt="" />
                                     </div>
+                                    <div className="carousel-item"></div>
                                 </div>
                             </div>
                         </div>
