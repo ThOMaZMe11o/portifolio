@@ -170,7 +170,7 @@ export default function About() {
                                         <img src="/certifications/Java Completo Do Zero ao Profissional.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="" alt="" />
+                                        <img src="/certifications/SQL para Análise de Dados Do Básico ao Avançado.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
                                         <img src="" alt="" />
