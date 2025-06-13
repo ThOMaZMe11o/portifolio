@@ -173,7 +173,7 @@ export default function About() {
                                         <img src="/certifications/SQL para Análise de Dados Do Básico ao Avançado.jpg" alt="" />
                                     </div>
                                     <div className="carousel-item">
-                                        <img src="" alt="" />
+                                        <img src="/certifications/Versionamento de Código com Git e Github.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
